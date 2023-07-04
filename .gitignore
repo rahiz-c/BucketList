@@ -20,6 +20,7 @@ project.lock.json
 [Dd]ebugPublic/
 [Rr]elease/
 [Rr]eleases/
+wwwroot/
 x64/
 x86/
 build/
