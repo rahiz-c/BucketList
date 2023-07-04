@@ -1,0 +1,7 @@
+﻿@*@{
+    var nameClaims = Model?.Principal?.Claims;
+    var nameClaim = nameClaims.FirstOrDefault(c => c.Type == "name")
+    var userName = nameClaim?.Value;
+}*@
+
+<h7>Hello @Context.User.Identity.Name</h7>
